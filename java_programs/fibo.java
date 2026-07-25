@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EvenFibonacciSum {
+public class fibo {
 
     
     public static long evenFibSumBruteForce(int n) {
