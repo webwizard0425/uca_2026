@@ -1,4 +1,4 @@
-public class reversePairs {
+public class ReversePairs{
 
     static int count = 0;
 
