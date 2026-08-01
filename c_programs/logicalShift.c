@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int logicalShift(int x, int n) {
+    int mask = ~(((1 << 31) >> n) << 1);
+    return (x >> n) & mask;
+}
+
+
+int main() {
+
+    printf("0x%x\n", logicalShift(0x87654321, 4));
+    printf("0x%x\n", logicalShift(0x80000000, 1));
+    printf("0x%x\n", logicalShift(0x12345678, 8));
+
+    return 0;
+}

@@ -1,5 +1,5 @@
 
-public class countInversions {
+public class CountInversions{
 
     static long count = 0;
 
